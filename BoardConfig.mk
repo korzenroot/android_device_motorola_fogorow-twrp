@@ -14,7 +14,7 @@
 # limitations under the License.
 #
 
-DEVICE_PATH := device/motorola/fogorow
+DEVICE_PATH := device/motorola/fogorow-twrp
 
 # Building with minimal manifest
 ALLOW_MISSING_DEPENDENCIES := true

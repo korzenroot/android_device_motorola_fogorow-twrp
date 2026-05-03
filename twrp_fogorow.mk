@@ -22,7 +22,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, vendor/twrp/config/common.mk)
 
 # Inherit from fogorow device
-$(call inherit-product, device/motorola/fogorow/device.mk)
+$(call inherit-product, device/motorola/fogorow-twrp/device.mk)
 
 PRODUCT_DEVICE := fogorow
 PRODUCT_NAME := twrp_fogorow
