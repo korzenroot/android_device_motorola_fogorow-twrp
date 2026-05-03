@@ -6,7 +6,7 @@ repo init -u https://github.com/minimal-manifest-twrp/platform_manifest_twrp_aos
 mkdir .repo/local_manifests
 cat <<EOF > .repo/local_manifests/roomservice.xml
 <manifest>
-    <project path="device/motorola/fogorow-twrp" name="korzenroot/android_device_motorola_fogorow-twrp" remote="github" revision="main"/>
+    <project path="device/motorola/fogorow" name="korzenroot/android_device_motorola_fogorow-twrp" remote="github" revision="main"/>
 </manifest>
 EOF
 repo sync -c --no-tags
