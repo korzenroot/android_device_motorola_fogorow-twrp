@@ -2,7 +2,7 @@
 ```
 mkdir minimal-manifest-twrp
 cd minimal-manifest-twrp
-repo init -u https://github.com/minimal-manifest-twrp/platform_manifest_twrp_aosp.git -b twrp-12.1 -c --no-tags --depth=1
+repo init -u https://github.com/minimal-manifest-twrp/platform_manifest_twrp_aosp.git -b twrp-12.1 -c --no-tags --depth=1 --git-lfs
 mkdir .repo/local_manifests
 cat <<EOF > .repo/local_manifests/roomservice.xml
 <manifest>
